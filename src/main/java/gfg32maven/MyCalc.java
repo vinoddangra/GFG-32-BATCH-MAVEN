@@ -27,7 +27,7 @@ public class MyCalc {
 	}
 	public void greet()
 	{
-		System.out.println("Hello Master Branch This is GitHub Class");
+		System.out.println("Hello Master Branch This is GitHub Class, Thanks Hitesh");
 	}
 	
 
