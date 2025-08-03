@@ -1,6 +1,11 @@
 pipeline {
     agent any
-    stages {
+tools
+{
+	maven 'MAVEN_HOME'
+}
+
+stages {
         stage('Checkout') {
             steps {
                 // Checkout your source code from version control
@@ -19,14 +24,7 @@ pipeline {
                 sh 'mvn test'
             }
         }
-        stage('Deploy') {
-            steps {
-                // Deploy your artifact, if necessary
-                // Example: sh 'mvn deploy'
-            }
-        }
-    
-    
+    }
 
     post {
         success {
