@@ -25,7 +25,7 @@ pipeline {
                 // Example: sh 'mvn deploy'
             }
         }
-    }
+    
     
 
     post {
